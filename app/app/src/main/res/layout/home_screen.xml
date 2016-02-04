@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:id="@+id/receive_command"
+    android:keepScreenOn="true">
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:layout_marginTop="30dp"
+     android:layout_marginBottom="35dp"
+     android:textSize="35dp"
+     android:textColor="#ffffff"
+     android:text="CONNECTED CARS"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:orientation="vertical">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/fab_margin"
+            android:src="@android:drawable/ic_menu_edit"
+            app:backgroundTint="#ffffff"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_hist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:backgroundTint="#ffffff"
+            android:layout_margin="@dimen/fab_margin"
+            android:src="@android:drawable/ic_menu_recent_history" />
+
+
+     <!--   <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:backgroundTint="#ffffff"
+            android:layout_margin="@dimen/fab_margin"
+            android:src="@android:drawable/ic_menu_recent_history" />-->
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <!--330011
+        android:layout_weight="1"
+        android:layout_weight="0"
+        android:background="@drawable/ring"-->
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Connect"
+        android:background="@drawable/ring"
+        android:layout_marginBottom="5dp"
+        android:text="Press or Say 'Connect Car'!"
+        android:textColor="#ffffff"
+        android:layout_alignParentBottom="true"
+         />
+    </RelativeLayout>
+</LinearLayout>
