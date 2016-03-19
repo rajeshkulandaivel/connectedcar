@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:id="@+id/receive_command"
+    android:keepScreenOn="true">
+
+ <!--   <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+        330011
+        android:layout_weight="1"
+        android:layout_weight="0"
+        android:background="@drawable/ring"
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Like"
+            android:background="@drawable/ring"
+            android:text="    Press or Say 'Like'    "
+            android:textColor="#ffffff"
+            android:layout_marginBottom="15dip"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Dislike"
+            android:background="@drawable/ring"
+            android:text=" Press or Say 'Dislike' "
+            android:textColor="#ffffff"
+
+            />
+    </LinearLayout>-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="35dp"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:text="LIKE/DISLIKE THE DRIVE?"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        >
+        <!-- android:background="#ffffff"-->
+
+        <!--  android:src="@android:drawable/ic_menu_edit"-->
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:backgroundTint="#000000"
+            android:layout_margin="@dimen/fab_margin"
+            android:src="@drawable/thumb_up_white" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/dislike"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/fab_margin"
+            android:src="@drawable/thumb_down_white"
+            app:backgroundTint="#000000"/>
+
+
+        <!--   <android.support.design.widget.FloatingActionButton
+               android:id="@+id/fab1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               app:backgroundTint="#ffffff"
+               android:layout_margin="@dimen/fab_margin"
+               android:src="@android:drawable/ic_menu_recent_history" />-->
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

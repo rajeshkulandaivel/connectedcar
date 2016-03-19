@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.h156252.connected_cars">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/redcar_app_icon"
+        android:label="Connected Cars"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!--
+        android:theme="@style/AppTheme">
+        android:icon="@mipmap/ic_launcher"
+        android:theme="@style/AppTheme">
+        -->
+        <activity
+            android:name=".HomeScreen"
+            android:label="Connected Cars"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <!--
+            android:theme="@style/AppTheme.NoActionBar">
+
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="USER LOGIN" />
+        <activity
+            android:name=".CarGrid"
+            android:label="YOUR NEIGHBOURS" />
+        <activity
+            android:name=".UpdateProfile"
+            android:label="UPDATE PROFILE" />
+        <activity
+            android:name=".MsgHistory"
+            android:label="INBOX"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!--
+                <activity
+                    android:name=".ConnectActivity"
+                    android:label="@string/title_activity_connect"
+                    android:theme="@style/AppTheme.NoActionBar"></activity>
+                <activity
+                    android:name=".HomeScreen"
+                    android:label="@string/title_activity_home_screen"
+                    android:theme="@style/AppTheme.NoActionBar"></activity>
+
+
+        <activity
+            android:name=".ListView"
+            android:label="@string/title_activity_list_view"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Test"
+            android:label="@string/title_activity_test"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CarGrid"
+            android:label="@string/title_activity_car_grid"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <activity
+            android:name=".HomeScreen"
+            android:label="@string/title_activity_menu_test"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        -->
+
+        <activity
+            android:name=".RateDriving"
+            android:label="RATE DRIVING"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TopDriver"
+            android:label="TOP DRIVERS"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RashDriveAlert"
+            android:label="@string/title_activity_rash_drive_alert"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest> <!-- android:name=".VoiceConversion" -->

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dip">
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTER TO SERVICE"
+        android:singleLine="true"
+
+        android:textSize="30dp"
+        android:layout_marginBottom="10dip"
+        />
+    </LinearLayout>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone Number:"
+        android:singleLine="true"
+        />
+
+    <!--android:layout_marginBottom="5dip"
+    Email input text -->
+    <EditText android:id="@+id/txtNumber"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:inputType="number"/>
+
+    <!-- Password Label -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Car License No.:"
+
+        android:layout_marginTop="7dp"/>
+
+    <!-- Password input text -->
+    <EditText android:id="@+id/carnum"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Brand:"
+
+        android:layout_marginTop="7dp"/>
+
+    <!-- Password input text -->
+    <EditText android:id="@+id/txtBrand"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Color:"
+        />
+
+    <!-- Password input text -->
+    <EditText android:id="@+id/txtColor"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Text:"
+        />
+
+    <!-- Password input text -->
+    <EditText android:id="@+id/txtText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:hint="Any text written behind car.."/>
+
+    <!-- Login button -->
+    <Button android:id="@+id/btnLogin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:textSize="22dp"
+        android:text="Register"/>
+
+
+</LinearLayout>

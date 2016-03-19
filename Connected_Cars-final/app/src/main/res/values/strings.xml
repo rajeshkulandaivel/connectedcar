@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Connected_Cars</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_connect">ConnectActivity</string>
+    <string name="title_activity_home_screen">HomeScreen</string>
+    <string name="title_activity_list_view">ListView</string>
+    <string name="title_activity_test">Test</string>
+    <string name="title_activity_continuous_speech">ContinuousSpeech</string>
+    <string name="title_activity_car_grid">CarGrid</string>
+    <string name="title_activity_menu_test">MenuTest</string>
+    <string name="title_activity_update_profile">UpdateProfile</string>
+    <string name="title_activity_history">History</string>
+    <string name="title_activity_msg_history">MsgHistory</string>
+    <string name="title_activity_rate_driving">RateDriving</string>
+    <string name="title_activity_top_driver">TopDriver</string>
+    <string name="title_activity_rash_drive_alert">RashDriveAlert</string>
+</resources>
